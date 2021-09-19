@@ -11,10 +11,13 @@
 		CE1D3D4E26F5BEE700F3644A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1D3D4C26F5BEE700F3644A /* Interface.storyboard */; };
 		CE1D3D5026F5BEE800F3644A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1D3D4F26F5BEE800F3644A /* Assets.xcassets */; };
 		CE1D3D5726F5BEE800F3644A /* recept WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CE1D3D5626F5BEE800F3644A /* recept WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		CE1D3D5C26F5BEE800F3644A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D3D5B26F5BEE800F3644A /* InterfaceController.swift */; };
+		CE1D3D5C26F5BEE800F3644A /* TableInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D3D5B26F5BEE800F3644A /* TableInterfaceController.swift */; };
 		CE1D3D5E26F5BEE800F3644A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D3D5D26F5BEE800F3644A /* ExtensionDelegate.swift */; };
 		CE1D3D6026F5BEE800F3644A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D3D5F26F5BEE800F3644A /* ComplicationController.swift */; };
 		CE1D3D6226F5BEE900F3644A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1D3D6126F5BEE900F3644A /* Assets.xcassets */; };
+		CED87CC626F5EDC70081E778 /* recepies.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED87CC226F5E5120081E778 /* recepies.swift */; };
+		CED87CCB26F6010C0081E778 /* TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED87CCA26F6010C0081E778 /* TableRow.swift */; };
+		CED87CD026F610340081E778 /* DetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED87CCF26F610340081E778 /* DetailInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,11 +69,14 @@
 		CE1D3D4F26F5BEE800F3644A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE1D3D5126F5BEE800F3644A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE1D3D5626F5BEE800F3644A /* recept WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "recept WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE1D3D5B26F5BEE800F3644A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		CE1D3D5B26F5BEE800F3644A /* TableInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableInterfaceController.swift; sourceTree = "<group>"; };
 		CE1D3D5D26F5BEE800F3644A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		CE1D3D5F26F5BEE800F3644A /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		CE1D3D6126F5BEE900F3644A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE1D3D6326F5BEE900F3644A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED87CC226F5E5120081E778 /* recepies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recepies.swift; sourceTree = "<group>"; };
+		CED87CCA26F6010C0081E778 /* TableRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRow.swift; sourceTree = "<group>"; };
+		CED87CCF26F610340081E778 /* DetailInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailInterfaceController.swift; path = "recept WatchKit App/DetailInterfaceController.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +122,11 @@
 		CE1D3D5A26F5BEE800F3644A /* recept WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				CE1D3D5B26F5BEE800F3644A /* InterfaceController.swift */,
+				CED87CCF26F610340081E778 /* DetailInterfaceController.swift */,
+				CE1D3D5B26F5BEE800F3644A /* TableInterfaceController.swift */,
+				CED87CCA26F6010C0081E778 /* TableRow.swift */,
 				CE1D3D5D26F5BEE800F3644A /* ExtensionDelegate.swift */,
+				CED87CC226F5E5120081E778 /* recepies.swift */,
 				CE1D3D5F26F5BEE800F3644A /* ComplicationController.swift */,
 				CE1D3D6126F5BEE900F3644A /* Assets.xcassets */,
 				CE1D3D6326F5BEE900F3644A /* Info.plist */,
@@ -251,8 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED87CD026F610340081E778 /* DetailInterfaceController.swift in Sources */,
 				CE1D3D5E26F5BEE800F3644A /* ExtensionDelegate.swift in Sources */,
-				CE1D3D5C26F5BEE800F3644A /* InterfaceController.swift in Sources */,
+				CED87CC626F5EDC70081E778 /* recepies.swift in Sources */,
+				CED87CCB26F6010C0081E778 /* TableRow.swift in Sources */,
+				CE1D3D5C26F5BEE800F3644A /* TableInterfaceController.swift in Sources */,
 				CE1D3D6026F5BEE800F3644A /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
